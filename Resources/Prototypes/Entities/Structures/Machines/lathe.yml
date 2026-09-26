@@ -384,6 +384,8 @@
     - CablesStatic
     - PowerCellsStatic
     dynamicPacks:
+    - MechWeaponsCivilian # Omu edit
+    - MechWeaponsSalvage # Omu edit
     - Robotics
     - BorgModules
     - MechParts

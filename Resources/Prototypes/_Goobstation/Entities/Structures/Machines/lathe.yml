@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-or-later
+SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
   id: EngineeringTechFab
@@ -182,6 +182,23 @@
     idleState: icon
     runningState: icon
     staticPacks:
+    - PaperworkStatic # Omu start: Sci lathe can craft most things # Autolathe recipes start
+    - TowelsStatic
+    - RollerBedsStatic
+    - ServiceStatic
+    - NailsStatic
+    - MedicalVehiclesStatic
+    - TapeRecorderStatic # Omu: Autolathe recipes end
+    - ServiceBoardsStatic # Omu: Circuit Imprinter recipes start
+    - CargoBoardsStatic
+    - MedicalBoardsStaticGoob
+    - SecurityBoardsStaticGoob
+    - ServiceBoardsStaticGoob # Omu: Circuit Imprinter recipes end
+    - CargoBoardsStatic # Omu: Cargo Techfab recipes start # the only Service static recipes missing was salt and pepper shakers so I figure I exclude them.
+    - CargoBoardsStaticGoob
+    - MiningToolsStatic
+    - CargoStatic # Omu: Cargo Techfab recipes start
+    # Omu end
     - WelderBasicOmu #Omu
     - MultitoolOmu #Omu
     - SharedBoardsStatic
@@ -206,6 +223,29 @@
     - GrenadeTriggersStatic # Goobstation - Roundstart Grenade Tech
     - MiscSignallersStatic
     dynamicPacks:
+    - Instruments # Omu: Protolathe recipes start
+    - FauxTiles
+    - MedicalMisc
+    - MedicalVehiclesAdvanced
+    - UpgradeKits
+    - ConstructionBagOfHolding
+    - Translators # Omu: Protolathe recipes end
+    - CargoBoards # Omu: Circuit Imprinter recipes start
+    - MedicalBoards
+    - ServiceBoards
+    - CameraBoards
+    - ServiceAssemblerPack
+    - MedicalAssemblerPack # Omu: Circuit Imprinter recipes end
+    - ServiceTools # Omu: Service Techfab recipes start
+    - ServiceBoardsGoob
+    - EntertainmentPack
+    - BartendingPack # Omu: Service Techfab recipes end
+    - Mining # Omu: Cargo Techfab recipes start
+    - MiningLavaland
+    - MiningWeapons
+    - MiningBoards
+    - MiningUpgrades # Omu: Cargo Techfab recipes end
+    # Omu end
     - AdvancedTools
     - ScienceEquipment
     - ScienceClothing
